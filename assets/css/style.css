@@ -371,7 +371,12 @@ body {
     text-align: center;
 }
 
+
+/*  FOOTER  */
+
+
 footer {
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background: #2F4858;
@@ -507,6 +512,63 @@ footer .footer_contact p {
     margin-bottom: 20px;
 
 }
+
+
+/*   MEDIA   */
+
+
+@media (max-width: 1160px) {
+
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .vector {
+        visibility: hidden;
+    }
+
+    .descr {
+        margin: 50px;
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+
+    }
+
+    .offer {
+        padding-top: 300px;
+    }
+
+    .footer_list {
+        visibility: hidden;
+    }
+
+
+}
+
+
+
+
+
 
 
 
